@@ -105,7 +105,7 @@ class KittenList extends Component {
   }
 
   viewKitten (id) {
-    this.props.history.push(`/kitten/${id}`)
+    this.props.history.push(`/kitten/${id}/weight`)
   }
 
   updateKitten (id) {
